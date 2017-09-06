@@ -1,19 +1,25 @@
-bot gmp;git add *;git commit -m "Add gmp";git push
-bot expat;git add *;git commit -m "Add expat";git push
-bot subversion;git add *;git commit -m "Add subversion";git push
-bot cmake;git add *;git commit -m "Add cmake";git push
-bot gcc;git add *;git commit -m "Add gcc";git push
-bot mongodb;git add *;git commit -m "Add mongodb";git push
-bot bash-completion;git add *;git commit -m "Add bash-completion";git push
-bot curl;git add *;git commit -m "Add curl";git push
-bot go;git add *;git commit -m "Add go";git push
-bot apr-util;git add *;git commit -m "Add apr-util";git push
-bot libxml2;git add *;git commit -m "Add libxml2";git push
-bot ruby;git add *;git commit -m "Add ruby";git push
-bot nodejs;git add *;git commit -m "Add nodejs";git push
-bot sqlite;git add *;git commit -m "Add sqlite";git push
-bot sphinx-doc;git add *;git commit -m "Add sphinx-doc";git push
-bot libmagic;git add *;git commit -m "Add libmagic";git push
-bot git;git add *;git commit -m "Add git";git push
-bot apr;git add *;git commit -m "Add apr";git push
+function bot() {
+brew upgrade "$@" --build-bottle
+brew install "$@" --build-bottle 
+brew bottle "$@"
+brew cleanup
+brew postinstall "$@"
+}
+bot gmp;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot subversion;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot cmake;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot gcc;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot mongodb;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot bash-completion;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot curl;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot go;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot apr-util;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot libxml2;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot ruby;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot nodejs;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot sqlite;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot sphinx-doc;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot libmagic;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot git;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
+bot apr;$(brew info $1) > message.txt;git add *;git commit -F message.txt;git push;echo  > autobot.log
 brew cleanup
