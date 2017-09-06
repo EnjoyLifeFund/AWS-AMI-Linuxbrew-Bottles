@@ -1,4 +1,5 @@
 gmp
+expat
 subversion
 cmake
 gcc
@@ -9,7 +10,6 @@ go
 apr-util
 libxml2
 ruby
-nodejs
 sqlite
 sphinx-doc
 libmagic

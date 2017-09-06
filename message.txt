@@ -1,0 +1,11 @@
+gmp: stable 6.1.2
+GNU multiple precision arithmetic library
+https://gmplib.org/
+/home/linuxbrew/.linuxbrew/Cellar/gmp/6.1.1 (22 files, 4MB) *
+  Poured from bottle on 2017-08-03 at 08:03:28
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmp.rb
+==> Dependencies
+Build: xz
+==> Options
+--c++11
+	Build using C++11 mode
