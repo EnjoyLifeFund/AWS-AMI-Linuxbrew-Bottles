@@ -1,11 +1,35 @@
-gmp: stable 6.1.2
-GNU multiple precision arithmetic library
-https://gmplib.org/
-/home/linuxbrew/.linuxbrew/Cellar/gmp/6.1.1 (22 files, 4MB) *
-  Poured from bottle on 2017-08-03 at 08:03:28
-From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmp.rb
+sqlite: stable 3.20.1
+Command-line interface for SQLite
+https://sqlite.org/
+/home/linuxbrew/.linuxbrew/Cellar/sqlite/3.20.0 (12 files, 19.0MB) *
+  Poured from bottle on 2017-08-03 at 08:05:45
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqlite.rb
 ==> Dependencies
-Build: xz
+Build: unzip
+Recommended: readline
+Optional: icu4c
 ==> Options
---c++11
-	Build using C++11 mode
+--with-dbstat
+	Enable the 'dbstat' virtual table
+--with-docs
+	Install HTML documentation
+--with-fts
+	Enable the FTS3 module
+--with-fts5
+	Enable the FTS5 module (experimental)
+--with-functions
+	Enable more math and string functions for SQL queries
+--with-icu4c
+	Enable the ICU module
+--with-json1
+	Enable the JSON1 extension
+--with-secure-delete
+	Defaults secure_delete to on
+--with-session
+	Enable the session extension
+--with-unlock-notify
+	Enable the unlock notification feature
+--without-readline
+	Build without readline support
+--without-rtree
+	Disable the R*Tree index module
