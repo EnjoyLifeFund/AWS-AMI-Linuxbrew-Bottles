@@ -1,6 +1,0 @@
-==> Upgrading 1 outdated package, with result:
-sqlite 3.20.1
-==> Upgrading sqlite 
-==> Downloading https://sqlite.org/2017/sqlite-autoconf-3200100.tar.gz
-Already downloaded: /home/ec2-user/.cache/Homebrew/sqlite-3.20.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sqlite/3.20.1 --enable-dynamic-extensions --enable-readline --disable-editline
