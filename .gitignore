@@ -1,6 +1,10 @@
+bot_path
 jdk-1.8.0-144.x86_64_linux.bottle.1.tar.gz
 llvm-4.0.1.x86_64_linux.bottle.1.tar.gz
-tobe.bot
-tobe.run
-nohup.out
 message.txt
+nohup.out
+tmpbot
+tobe.bot
+tobe.install
+tobe.move
+tobe.run

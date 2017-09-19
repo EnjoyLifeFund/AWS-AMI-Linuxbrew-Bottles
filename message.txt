@@ -1,11 +1,39 @@
-gmp: stable 6.1.2
-GNU multiple precision arithmetic library
-https://gmplib.org/
-/home/linuxbrew/.linuxbrew/Cellar/gmp/6.1.1 (22 files, 4MB) *
-  Poured from bottle on 2017-08-03 at 08:03:28
-From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmp.rb
+git: stable 2.14.1, HEAD
+Distributed revision control system
+https://git-scm.com
+/home/linuxbrew/.linuxbrew/Cellar/git/2.14.0 (1,390 files, 42.0MB) *
+  Built from source on 2017-08-05 at 14:56:31
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/git.rb
 ==> Dependencies
 Build: xz
+Optional: pcre2, gettext, openssl, curl
+==> Requirements
+Optional: perl >= 5.6
 ==> Options
---c++11
-	Build using C++11 mode
+--with-blk-sha1
+	Compile with the block-optimized SHA1 implementation
+--with-curl
+	Use Homebrew's version of cURL library
+--with-gettext
+	Build with gettext support
+--with-openssl
+	Build with Homebrew's OpenSSL instead of using CommonCrypto
+--with-pcre2
+	Build with pcre2 support
+--with-perl
+	Build against a custom Perl rather than system default
+--with-persistent-https
+	Build git-remote-persistent-https from 'contrib' directory
+--with-subversion
+	Use Homebrew's version of SVN
+--without-completions
+	Disable bash/zsh completions from 'contrib' directory
+--HEAD
+	Install HEAD version
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+
+
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/git

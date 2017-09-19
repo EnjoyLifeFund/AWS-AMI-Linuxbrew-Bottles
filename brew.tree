@@ -1,0 +1,1366 @@
+afuse
+
+aircrack-ng
+├── sqlite
+│   └── readline
+└── openssl
+
+ant
+
+apache-spark
+
+apr
+
+apr-util
+├── apr
+└── openssl
+
+asciidoc
+└── docbook
+
+asio
+└── openssl
+
+augeas
+└── readline
+
+autoconf
+
+automake
+└── autoconf
+
+azure-cli
+├── python3
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   ├── openssl
+│   └── xz
+└── openssl
+
+bash
+└── readline
+
+bash-completion
+
+bazel
+
+binutils
+
+bison
+
+boost
+
+homebrew/science/boost-compute
+└── boost
+
+boost-mpi
+├── open-mpi
+│   ├── gcc
+│   │   ├── gmp
+│   │   ├── libmpc
+│   │   │   ├── gmp
+│   │   │   └── mpfr
+│   │   │       └── gmp
+│   │   ├── mpfr
+│   │   │   └── gmp
+│   │   └── isl
+│   │       └── gmp
+│   └── libevent
+│       └── openssl
+└── boost
+
+boost-python
+└── boost
+
+c-ares
+
+cabal-install
+└── ghc
+
+cairo
+├── freetype
+│   └── libpng
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── libpng
+├── pixman
+└── glib
+    ├── gettext
+    ├── libffi
+    └── pcre
+
+cassandra
+└── cython
+
+ceres-solver
+├── cmake
+├── eigen
+├── gflags
+├── glog
+│   └── gflags
+├── metis
+└── suite-sparse
+    └── metis
+
+cfitsio
+
+chrome-cli
+
+chromedriver
+
+clang-format
+
+cmake
+
+coreutils
+
+cunit
+
+curl
+
+cython
+
+docbook
+
+docbook-xsl
+└── docbook
+
+doxygen
+
+e2fsprogs
+└── gettext
+
+eigen
+
+epsilon
+└── popt
+
+ettercap
+├── pcre
+├── libnet
+└── openssl
+
+ext4fuse
+
+faac
+
+fdk-aac
+
+ffmpeg
+├── lame
+├── x264
+└── xvid
+
+findutils
+
+fltk
+├── libpng
+└── jpeg
+
+fontconfig
+└── freetype
+    └── libpng
+
+freetype
+└── libpng
+
+freexl
+
+gawk
+├── mpfr
+│   └── gmp
+└── readline
+
+gcc
+├── gmp
+├── libmpc
+│   ├── gmp
+│   └── mpfr
+│       └── gmp
+├── mpfr
+│   └── gmp
+└── isl
+    └── gmp
+
+px4/px4/gcc-arm-none-eabi-63
+
+gcsfuse
+
+gd
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── freetype
+│   └── libpng
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+└── webp
+    ├── libpng
+    └── jpeg
+
+gdal
+├── libpng
+├── jpeg
+├── giflib
+├── libtiff
+│   └── jpeg
+├── libgeotiff
+│   ├── jpeg
+│   ├── libtiff
+│   │   └── jpeg
+│   └── proj
+├── proj
+├── geos
+├── json-c
+├── libxml2
+├── pcre
+├── sqlite
+│   └── readline
+├── freexl
+└── libspatialite
+    ├── proj
+    ├── geos
+    ├── sqlite
+    │   └── readline
+    ├── libxml2
+    ├── freexl
+    └── liblwgeom
+        ├── proj
+        ├── geos
+        └── json-c
+
+gdb
+
+gdbm
+
+gdk-pixbuf
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── jpeg
+├── libtiff
+│   └── jpeg
+├── libpng
+└── gobject-introspection
+    ├── pkg-config
+    ├── glib
+    │   ├── gettext
+    │   ├── libffi
+    │   └── pcre
+    ├── cairo
+    │   ├── freetype
+    │   │   └── libpng
+    │   ├── fontconfig
+    │   │   └── freetype
+    │   │       └── libpng
+    │   ├── libpng
+    │   ├── pixman
+    │   └── glib
+    │       ├── gettext
+    │       ├── libffi
+    │       └── pcre
+    └── libffi
+
+geckodriver
+
+geos
+
+gettext
+
+gflags
+
+ghc
+
+giflib
+
+git
+
+git-lfs
+
+glib
+├── gettext
+├── libffi
+└── pcre
+
+glog
+└── gflags
+
+gmp
+
+gnatsd
+
+gnome-common
+
+gnome-doc-utils
+├── python
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   └── openssl
+├── docbook
+├── gettext
+└── libxml2
+
+gnu-getopt
+└── gettext
+
+gnu-indent
+└── gettext
+
+gnu-sed
+
+gnu-tar
+
+gnu-time
+
+gnuplot
+├── gd
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── freetype
+│   │   └── libpng
+│   ├── jpeg
+│   ├── libpng
+│   ├── libtiff
+│   │   └── jpeg
+│   └── webp
+│       ├── libpng
+│       └── jpeg
+├── readline
+└── lua
+
+gnutls
+├── libtasn1
+├── gmp
+├── nettle
+│   └── gmp
+├── libunistring
+└── p11-kit
+    └── libffi
+
+go
+
+gobject-introspection
+├── pkg-config
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── cairo
+│   ├── freetype
+│   │   └── libpng
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── libpng
+│   ├── pixman
+│   └── glib
+│       ├── gettext
+│       ├── libffi
+│       └── pcre
+└── libffi
+
+godep
+└── go
+
+gpp
+
+gradle
+
+graphite2
+
+graphviz
+├── libtool
+├── gd
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── freetype
+│   │   └── libpng
+│   ├── jpeg
+│   ├── libpng
+│   ├── libtiff
+│   │   └── jpeg
+│   └── webp
+│       ├── libpng
+│       └── jpeg
+└── libpng
+
+grep
+└── pcre
+
+grt
+
+gsl
+
+gts
+├── gettext
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+└── netpbm
+    ├── libtiff
+    │   └── jpeg
+    ├── jasper
+    │   └── jpeg
+    ├── jpeg
+    └── libpng
+
+gx
+
+gx-go
+
+homebrew/science/h5utils
+├── libpng
+└── hdf5
+    ├── gcc
+    │   ├── gmp
+    │   ├── libmpc
+    │   │   ├── gmp
+    │   │   └── mpfr
+    │   │       └── gmp
+    │   ├── mpfr
+    │   │   └── gmp
+    │   └── isl
+    │       └── gmp
+    └── szip
+
+hadoop
+
+harfbuzz
+├── freetype
+│   └── libpng
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── gobject-introspection
+│   ├── pkg-config
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── cairo
+│   │   ├── freetype
+│   │   │   └── libpng
+│   │   ├── fontconfig
+│   │   │   └── freetype
+│   │   │       └── libpng
+│   │   ├── libpng
+│   │   ├── pixman
+│   │   └── glib
+│   │       ├── gettext
+│   │       ├── libffi
+│   │       └── pcre
+│   └── libffi
+├── graphite2
+└── icu4c
+
+hdf5
+├── gcc
+│   ├── gmp
+│   ├── libmpc
+│   │   ├── gmp
+│   │   └── mpfr
+│   │       └── gmp
+│   ├── mpfr
+│   │   └── gmp
+│   └── isl
+│       └── gmp
+└── szip
+
+heroku
+└── node
+    └── icu4c
+
+hg-fast-export
+
+hidapi
+
+hub
+
+hydra
+├── mysql
+│   └── openssl
+└── openssl
+
+icdiff
+
+icu4c
+
+ilmbase
+
+intltool
+
+ipfs
+├── gx
+└── gx-go
+
+iproute2mac
+
+isl
+└── gmp
+
+itstool
+└── libxml2
+
+jansson
+
+jasper
+└── jpeg
+
+jemalloc
+
+john-jumbo
+├── openssl
+└── gmp
+
+jpeg
+
+jpeg-turbo
+
+json-c
+
+lame
+
+lapack
+├── gcc
+│   ├── gmp
+│   ├── libmpc
+│   │   ├── gmp
+│   │   └── mpfr
+│   │       └── gmp
+│   ├── mpfr
+│   │   └── gmp
+│   └── isl
+│       └── gmp
+└── gcc
+    ├── gmp
+    ├── libmpc
+    │   ├── gmp
+    │   └── mpfr
+    │       └── gmp
+    ├── mpfr
+    │   └── gmp
+    └── isl
+        └── gmp
+
+ldns
+└── openssl@1.1
+
+libarchive
+└── xz
+
+libav
+├── faac
+├── fdk-aac
+├── freetype
+│   └── libpng
+├── lame
+├── libvorbis
+│   └── libogg
+├── libvpx
+├── opus
+├── x264
+└── xvid
+
+libdap
+├── libxml2
+└── openssl
+
+libev
+
+libevent
+└── openssl
+
+libffi
+
+libgcrypt
+└── libgpg-error
+
+libgeotiff
+├── jpeg
+├── libtiff
+│   └── jpeg
+└── proj
+
+libgpg-error
+
+libidn
+
+libkml
+
+liblwgeom
+├── proj
+├── geos
+└── json-c
+
+libmagic
+
+libmpc
+├── gmp
+└── mpfr
+    └── gmp
+
+libnet
+
+libogg
+
+libpng
+
+libspatialite
+├── proj
+├── geos
+├── sqlite
+│   └── readline
+├── libxml2
+├── freexl
+└── liblwgeom
+    ├── proj
+    ├── geos
+    └── json-c
+
+libssh2
+└── openssl
+
+libtasn1
+
+libtiff
+└── jpeg
+
+libtool
+
+libtrace
+├── openssl
+└── wandio
+
+libunistring
+
+libusb
+
+libusb-compat
+└── libusb
+
+libuvc
+└── libusb
+
+libvorbis
+└── libogg
+
+libvpx
+
+libxml2
+
+libyaml
+
+little-cms2
+├── jpeg
+└── libtiff
+    └── jpeg
+
+lldpd
+├── readline
+└── libevent
+    └── openssl
+
+llvm
+└── libffi
+
+lua
+
+lz4
+
+lzo
+
+m4
+
+make
+
+makedepend
+
+mariadb
+└── openssl
+
+maven
+
+mercurial
+└── python
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    ├── gdbm
+    └── openssl
+
+mesos
+└── subversion
+    ├── perl
+    ├── apr-util
+    │   ├── apr
+    │   └── openssl
+    ├── apr
+    ├── sqlite
+    │   └── readline
+    └── openssl
+
+metis
+
+mongodb
+└── openssl
+
+mpfr
+└── gmp
+
+runtimeco/mynewt/mynewt-newt
+
+nasm
+
+netcdf
+├── gcc
+│   ├── gmp
+│   ├── libmpc
+│   │   ├── gmp
+│   │   └── mpfr
+│   │       └── gmp
+│   ├── mpfr
+│   │   └── gmp
+│   └── isl
+│       └── gmp
+└── hdf5
+    ├── gcc
+    │   ├── gmp
+    │   ├── libmpc
+    │   │   ├── gmp
+    │   │   └── mpfr
+    │   │       └── gmp
+    │   ├── mpfr
+    │   │   └── gmp
+    │   └── isl
+    │       └── gmp
+    └── szip
+
+netpbm
+├── libtiff
+│   └── jpeg
+├── jasper
+│   └── jpeg
+├── jpeg
+└── libpng
+
+nettle
+└── gmp
+
+nghttp2
+├── c-ares
+├── libev
+├── openssl
+├── libevent
+│   └── openssl
+├── jansson
+├── boost
+├── spdylay
+│   ├── libevent
+│   │   └── openssl
+│   └── openssl
+└── jemalloc
+
+ninja
+
+nmap
+└── openssl
+
+node
+└── icu4c
+
+numpy
+└── python3
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    ├── gdbm
+    ├── openssl
+    └── xz
+
+ocaml
+
+open-mpi
+├── gcc
+│   ├── gmp
+│   ├── libmpc
+│   │   ├── gmp
+│   │   └── mpfr
+│   │       └── gmp
+│   ├── mpfr
+│   │   └── gmp
+│   └── isl
+│       └── gmp
+└── libevent
+    └── openssl
+
+openblas
+└── gcc
+    ├── gmp
+    ├── libmpc
+    │   ├── gmp
+    │   └── mpfr
+    │       └── gmp
+    ├── mpfr
+    │   └── gmp
+    └── isl
+        └── gmp
+
+opencv
+├── python
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   └── openssl
+├── python3
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   ├── openssl
+│   └── xz
+├── eigen
+├── ffmpeg
+│   ├── lame
+│   ├── x264
+│   └── xvid
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+├── openexr
+│   └── ilmbase
+└── numpy
+    └── python3
+        ├── readline
+        ├── sqlite
+        │   └── readline
+        ├── gdbm
+        ├── openssl
+        └── xz
+
+openexr
+└── ilmbase
+
+openjpeg
+├── little-cms2
+│   ├── jpeg
+│   └── libtiff
+│       └── jpeg
+├── libtiff
+│   └── jpeg
+└── libpng
+
+openmotif
+├── fontconfig
+│   └── freetype
+│       └── libpng
+└── freetype
+    └── libpng
+
+openssl
+
+openssl@1.1
+
+opus
+
+osquery
+├── asio
+│   └── openssl
+├── augeas
+│   └── readline
+├── boost
+├── snappy
+├── gflags
+├── glog
+│   └── gflags
+├── libarchive
+│   └── xz
+├── libmagic
+├── lldpd
+│   ├── readline
+│   └── libevent
+│       └── openssl
+├── lz4
+├── openssl
+├── rapidjson
+├── rocksdb
+│   ├── snappy
+│   ├── lz4
+│   ├── gflags
+│   └── jemalloc
+├── sleuthkit
+├── yara
+│   └── openssl
+├── xz
+└── zstd
+
+p11-kit
+└── libffi
+
+p7zip
+
+pandoc
+
+pango
+├── cairo
+│   ├── freetype
+│   │   └── libpng
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── libpng
+│   ├── pixman
+│   └── glib
+│       ├── gettext
+│       ├── libffi
+│       └── pcre
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── gobject-introspection
+│   ├── pkg-config
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── cairo
+│   │   ├── freetype
+│   │   │   └── libpng
+│   │   ├── fontconfig
+│   │   │   └── freetype
+│   │   │       └── libpng
+│   │   ├── libpng
+│   │   ├── pixman
+│   │   └── glib
+│   │       ├── gettext
+│   │       ├── libffi
+│   │       └── pcre
+│   └── libffi
+└── harfbuzz
+    ├── freetype
+    │   └── libpng
+    ├── glib
+    │   ├── gettext
+    │   ├── libffi
+    │   └── pcre
+    ├── gobject-introspection
+    │   ├── pkg-config
+    │   ├── glib
+    │   │   ├── gettext
+    │   │   ├── libffi
+    │   │   └── pcre
+    │   ├── cairo
+    │   │   ├── freetype
+    │   │   │   └── libpng
+    │   │   ├── fontconfig
+    │   │   │   └── freetype
+    │   │   │       └── libpng
+    │   │   ├── libpng
+    │   │   ├── pixman
+    │   │   └── glib
+    │   │       ├── gettext
+    │   │       ├── libffi
+    │   │       └── pcre
+    │   └── libffi
+    ├── graphite2
+    └── icu4c
+
+parallel
+
+homebrew/science/parallel-netcdf
+├── open-mpi
+│   ├── gcc
+│   │   ├── gmp
+│   │   ├── libmpc
+│   │   │   ├── gmp
+│   │   │   └── mpfr
+│   │   │       └── gmp
+│   │   ├── mpfr
+│   │   │   └── gmp
+│   │   └── isl
+│   │       └── gmp
+│   └── libevent
+│       └── openssl
+└── gcc
+    ├── gmp
+    ├── libmpc
+    │   ├── gmp
+    │   └── mpfr
+    │       └── gmp
+    ├── mpfr
+    │   └── gmp
+    └── isl
+        └── gmp
+
+pcre
+
+perl
+
+pixman
+
+pkg-config
+
+podofo
+├── libpng
+├── freetype
+│   └── libpng
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── jpeg
+├── libtiff
+│   └── jpeg
+└── openssl
+
+poppler
+├── cairo
+│   ├── freetype
+│   │   └── libpng
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── libpng
+│   ├── pixman
+│   └── glib
+│       ├── gettext
+│       ├── libffi
+│       └── pcre
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── freetype
+│   └── libpng
+├── gettext
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── gobject-introspection
+│   ├── pkg-config
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── cairo
+│   │   ├── freetype
+│   │   │   └── libpng
+│   │   ├── fontconfig
+│   │   │   └── freetype
+│   │   │       └── libpng
+│   │   ├── libpng
+│   │   ├── pixman
+│   │   └── glib
+│   │       ├── gettext
+│   │       ├── libffi
+│   │       └── pcre
+│   └── libffi
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+└── openjpeg
+    ├── little-cms2
+    │   ├── jpeg
+    │   └── libtiff
+    │       └── jpeg
+    ├── libtiff
+    │   └── jpeg
+    └── libpng
+
+popt
+
+homebrew/portable/portable-openssl
+
+homebrew/portable/portable-readline
+
+portaudio
+
+proj
+
+pv
+
+pyqt
+├── python
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   └── openssl
+├── python3
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   ├── openssl
+│   └── xz
+├── qt
+└── sip
+    ├── python
+    │   ├── readline
+    │   ├── sqlite
+    │   │   └── readline
+    │   ├── gdbm
+    │   └── openssl
+    └── python3
+        ├── readline
+        ├── sqlite
+        │   └── readline
+        ├── gdbm
+        ├── openssl
+        └── xz
+
+python
+├── readline
+├── sqlite
+│   └── readline
+├── gdbm
+└── openssl
+
+python3
+├── readline
+├── sqlite
+│   └── readline
+├── gdbm
+├── openssl
+└── xz
+
+qt
+
+rapidjson
+
+readline
+
+regina-rexx
+
+rocksdb
+├── snappy
+├── lz4
+├── gflags
+└── jemalloc
+
+ruby
+├── readline
+├── libyaml
+└── openssl
+
+rust
+├── pkg-config
+├── openssl
+└── libssh2
+    └── openssl
+
+s-lang
+└── libpng
+
+s3fs
+├── gnutls
+│   ├── libtasn1
+│   ├── gmp
+│   ├── nettle
+│   │   └── gmp
+│   ├── libunistring
+│   └── p11-kit
+│       └── libffi
+├── nettle
+│   └── gmp
+└── libgcrypt
+    └── libgpg-error
+
+scala
+
+scipy
+├── gcc
+│   ├── gmp
+│   ├── libmpc
+│   │   ├── gmp
+│   │   └── mpfr
+│   │       └── gmp
+│   ├── mpfr
+│   │   └── gmp
+│   └── isl
+│       └── gmp
+├── python3
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   ├── openssl
+│   └── xz
+└── numpy
+    └── python3
+        ├── readline
+        ├── sqlite
+        │   └── readline
+        ├── gdbm
+        ├── openssl
+        └── xz
+
+scons
+
+shared-mime-info
+├── gettext
+└── glib
+    ├── gettext
+    ├── libffi
+    └── pcre
+
+shellcheck
+
+shtool
+
+sip
+├── python
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── gdbm
+│   └── openssl
+└── python3
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    ├── gdbm
+    ├── openssl
+    └── xz
+
+sleuthkit
+
+snappy
+
+spdylay
+├── libevent
+│   └── openssl
+└── openssl
+
+sphinx-doc
+
+spoof-mac
+
+sqlite
+└── readline
+
+squashfs
+├── lzo
+└── xz
+
+sshfs
+└── glib
+    ├── gettext
+    ├── libffi
+    └── pcre
+
+subversion
+├── perl
+├── apr-util
+│   ├── apr
+│   └── openssl
+├── apr
+├── sqlite
+│   └── readline
+└── openssl
+
+suite-sparse
+└── metis
+
+swig
+└── pcre
+
+szip
+
+tachyon
+
+tbb
+
+tcl-tk
+
+texi2html
+└── gettext
+
+tiger-vnc
+├── gnutls
+│   ├── libtasn1
+│   ├── gmp
+│   ├── nettle
+│   │   └── gmp
+│   ├── libunistring
+│   └── p11-kit
+│       └── libffi
+├── jpeg-turbo
+├── gettext
+└── fltk
+    ├── libpng
+    └── jpeg
+
+tinycdb
+
+tomcat
+
+torrentcheck
+
+homebrew/science/triangle
+
+unixodbc
+
+valgrind
+
+wandio
+
+webp
+├── libpng
+└── jpeg
+
+wget
+└── openssl@1.1
+
+with-readline
+└── readline
+
+x264
+
+x265
+
+xerces-c
+
+xml-coreutils
+└── s-lang
+    └── libpng
+
+xmlto
+├── docbook
+├── docbook-xsl
+│   └── docbook
+└── gnu-getopt
+    └── gettext
+
+xvid
+
+xz
+
+yara
+└── openssl
+
+yasm
+
+zeromq
+
+zlib
+
+zstd
+
