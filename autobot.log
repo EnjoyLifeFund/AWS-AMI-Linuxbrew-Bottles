@@ -1,13 +1,13 @@
-==> Downloading http://dist.schmorp.de/libev/Attic/libev-4.24.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libev/4.24 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libev/4.24/share/man
+==> Downloading http://www.digip.org/jansson/releases/jansson-2.10.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jansson/2.10
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libev`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libev/4.24: 13 files, 1019.3KB, built in 17 seconds
-==> Determining libev bottle rebuild...
-==> Bottling libev-4.24.x86_64_linux.bottle.1.tar.gz...
-./libev-4.24.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jansson`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jansson/2.10: 12 files, 622.3KB, built in 37 seconds
+==> Determining jansson bottle rebuild...
+==> Bottling jansson-2.10.x86_64_linux.bottle.1.tar.gz...
+./jansson-2.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7512582a5569be54d8805ffa7852ccd8797258dc300d0f668eb80eac857dc19a" => :x86_64_linux
+    sha256 "5ae1b8265198264cb6beab020fa72fbcd1412ee9e4b2011ec7b4663ed44b86b7" => :x86_64_linux
   end
