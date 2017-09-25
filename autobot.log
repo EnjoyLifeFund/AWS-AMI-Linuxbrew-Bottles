@@ -1,18 +1,17 @@
 ==> Upgrading 1 outdated package, with result:
-sqlite 3.20.1
-==> Upgrading sqlite 
-==> Downloading https://sqlite.org/2017/sqlite-autoconf-3200100.tar.gz
-Already downloaded: /home/ec2-user/.cache/Homebrew/sqlite-3.20.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sqlite/3.20.1 --enable-dynamic-extensions --enable-readline --disable-editline
+apr 1.6.2_1
+==> Upgrading apr 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-1.6.2.tar.bz2
+Already downloaded: /home/ec2-user/.cache/Homebrew/apr-1.6.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1/libexec
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall sqlite`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sqlite/3.20.1: 12 files, 18.3MB, built in 1 minute 23 seconds
-==> Determining sqlite bottle rebuild...
-==> Bottling sqlite-3.20.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if sqlite-3.20.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./sqlite-3.20.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall apr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1: 61 files, 3.5MB, built in 1 minute 8 seconds
+==> Determining apr bottle rebuild...
+==> Bottling apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz...
+./apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "742c72498f7472c40c5fbe9b27a2e5910741ebf33e3b9e4d97e70977a9c0b949" => :x86_64_linux
+    sha256 "99066de865687e2a5e08b2935fba0af38b1df8a81c04555f49019e290c2e61ca" => :x86_64_linux
   end
