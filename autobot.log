@@ -1,8 +1,13 @@
-==> Determining linuxbrew/xorg/libxdmcp bottle rebuild...
-==> Bottling libxdmcp-1.1.2.x86_64_linux.bottle.1.tar.gz...
-./libxdmcp-1.1.2.x86_64_linux.bottle.1.tar.gz
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+libtcod
+
+==> Determining linuxbrew/xorg/libxcb bottle rebuild...
+==> Bottling libxcb-1.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxcb-1.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxcb-1.12.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bc15e5d1de0596a935ec4f98eaa17fc2d3a68220f785664d09a3c01f843b69ac" => :x86_64_linux
+    sha256 "1511357a6262fd7e6321989b103466dc69307dc386774dd55a1073da2a9ae588" => :x86_64_linux
   end
