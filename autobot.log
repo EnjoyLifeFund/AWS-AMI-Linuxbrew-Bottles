@@ -1,8 +1,18 @@
-==> Determining binutils bottle rebuild...
-==> Bottling binutils-2.29.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if binutils-2.29.x86_64_linux.bottle.1.tar.gz is relocatable...
-./binutils-2.29.x86_64_linux.bottle.1.tar.gz
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core, caskroom/cask).
+==> Updated Formulae
+bash-preexec
+kotlin
+libmodplug
+libnatpmp
+presto
+sdl2
+
+==> Determining mpfr bottle rebuild...
+==> Bottling mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f1d9bac341aa5c15ef4d27b2464ed5b32231fffbe04f7112ff991d25d568373d" => :x86_64_linux
+    sha256 "db41de5d3908819b58ad504bfc3ecd368da288d413d916ec1ac3f4343cfcc1b6" => :x86_64_linux
   end
