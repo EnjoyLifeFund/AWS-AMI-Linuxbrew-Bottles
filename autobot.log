@@ -1,14 +1,13 @@
-==> Downloading https://launchpad.net/libmetalink/trunk/libmetalink-0.1.3/+download/libmetalink-0.1.3.tar.xz
-Already downloaded: /home/ec2-user/.cache/Homebrew/libmetalink-0.1.3.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmetalink/0.1.3
+==> Downloading https://libssh2.org/download/libssh2-1.8.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libssh2/1.8.0 --disable-silent-rules --disable-examples-build --with-openssl --with-libz --with-libssl-prefix=/home/linuxbrew/.linuxbrew/opt/openssl
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmetalink`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmetalink/0.1.3: 32 files, 712.3KB, built in 14 seconds
-==> Determining libmetalink bottle rebuild...
-==> Bottling libmetalink-0.1.3.x86_64_linux.bottle.1.tar.gz...
-./libmetalink-0.1.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libssh2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libssh2/1.8.0: 183 files, 2.8MB, built in 28 seconds
+==> Determining libssh2 bottle rebuild...
+==> Bottling libssh2-1.8.0.x86_64_linux.bottle.2.tar.gz...
+./libssh2-1.8.0.x86_64_linux.bottle.2.tar.gz
   bottle do
-    rebuild 1
-    sha256 "8198b10d997b62d96f09dc20de90bfbd2862e6452e6e96531c33f9d3669d2d1f" => :x86_64_linux
+    rebuild 2
+    sha256 "896fda7e7c1cfc4f06c66471c0fa22355846c94d766d0b613ba909ff6d56398c" => :x86_64_linux
   end
