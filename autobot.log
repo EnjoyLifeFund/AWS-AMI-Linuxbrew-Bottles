@@ -1,7 +1,13 @@
-==> Determining linuxbrew/xorg/libxfont bottle rebuild...
-==> Bottling libxfont-1.5.2.x86_64_linux.bottle.tar.gz...
-./libxfont-1.5.2.x86_64_linux.bottle.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gperf/3.1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gperf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gperf/3.1: 15 files, 796.3KB, built in 42 seconds
+==> Determining gperf bottle rebuild...
+==> Bottling gperf-3.1.x86_64_linux.bottle.1.tar.gz...
+./gperf-3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "363534230e7dd5f8a30b555427cc2e6665ba21a5ae93e5fd6870ffcdc7c17474" => :x86_64_linux
+    rebuild 1
+    sha256 "24845bdbc5f6fb2f2c57e5bc60b2d911835a3c0c5c42a4b2d13c25c739a75cf3" => :x86_64_linux
   end
