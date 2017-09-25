@@ -1,16 +1,8 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-macvim
-python
-sip
-vim
-
-==> Determining linuxbrew/xorg/xf86vidmodeproto bottle rebuild...
-==> Bottling xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz...
-./xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/xineramaproto bottle rebuild...
+==> Bottling xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz...
+./xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "17f762e94d636b5b4a2a2a844ca8af453926ce3576e3f94a62dad192f9894335" => :x86_64_linux
+    sha256 "1f57a4a291118329ac8fe7a1ef71776cf70075cef3639d575486bf160270932a" => :x86_64_linux
   end
