@@ -1,8 +1,12 @@
-==> Determining linuxbrew/xorg/libxcomposite bottle rebuild...
-==> Bottling libxcomposite-0.4.4.x86_64_linux.bottle.1.tar.gz...
-./libxcomposite-0.4.4.x86_64_linux.bottle.1.tar.gz
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+No changes to formulae.
+
+==> Determining linuxbrew/xorg/libxrender bottle rebuild...
+==> Bottling libxrender-0.9.10.x86_64_linux.bottle.1.tar.gz...
+./libxrender-0.9.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "69da000495aa5beb0dc4474da491984a88b14c35f2508b55d75785174eea3943" => :x86_64_linux
+    sha256 "bc4a2f5bea8116c081092af128698b0c990e1f92b64c063663da30529282e4b6" => :x86_64_linux
   end
