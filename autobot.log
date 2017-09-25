@@ -1,15 +1,30 @@
-==> Downloading https://download.gnome.org/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnome-common/3.18.0
+==> Downloading https://ftp.gnu.org/gnu/gettext/gettext-0.19.8.1.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gettext/0.19.8.1 --with-included-gettext --with-included-glib --with-included-libcroco --with-included-libunistring --with-emacs --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/gettext/0.19.8.1/share/emacs/site-lisp/gettext --disable-java --disable-csharp --without-git --without-cvs --without-xz
+==> make
 ==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink include/libintl.h
+Target /home/linuxbrew/.linuxbrew/include/libintl.h
+is a symlink belonging to glibc. You can unlink it:
+  brew unlink glibc
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite gettext
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run gettext
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/include/libintl.h -> /home/linuxbrew/.linuxbrew/Cellar/glibc/2.19/include/libintl.h
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnome-common`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnome-common/3.18.0: 11 files, 556.7KB, built in 6 seconds
-==> Determining gnome-common bottle rebuild...
-==> Bottling gnome-common-3.18.0.x86_64_linux.bottle.1.tar.gz...
-./gnome-common-3.18.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gettext`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gettext/0.19.8.1: 1,932 files, 25.2MB, built in 6 minutes 6 seconds
+==> Determining gettext bottle rebuild...
+==> Bottling gettext-0.19.8.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gettext-0.19.8.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gettext-0.19.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "01eac64da7c2e00945a574c84634bf137d815ff1291c771a4bda7bee46f5766e" => :x86_64_linux
+    sha256 "ea58f61059ec4e930e0dd843b0e89ae9d66368a6dd9e9aec0260f0481e4fdad8" => :x86_64_linux
   end
