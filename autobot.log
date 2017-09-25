@@ -1,17 +1,14 @@
-==> Upgrading 1 outdated package, with result:
-apr 1.6.2_1
-==> Upgrading apr 
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-1.6.2.tar.bz2
-Already downloaded: /home/ec2-user/.cache/Homebrew/apr-1.6.2.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1/libexec
+==> Downloading https://launchpad.net/libmetalink/trunk/libmetalink-0.1.3/+download/libmetalink-0.1.3.tar.xz
+Already downloaded: /home/ec2-user/.cache/Homebrew/libmetalink-0.1.3.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmetalink/0.1.3
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1: 61 files, 3.5MB, built in 1 minute 8 seconds
-==> Determining apr bottle rebuild...
-==> Bottling apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz...
-./apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libmetalink`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmetalink/0.1.3: 32 files, 712.3KB, built in 14 seconds
+==> Determining libmetalink bottle rebuild...
+==> Bottling libmetalink-0.1.3.x86_64_linux.bottle.1.tar.gz...
+./libmetalink-0.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "99066de865687e2a5e08b2935fba0af38b1df8a81c04555f49019e290c2e61ca" => :x86_64_linux
+    sha256 "8198b10d997b62d96f09dc20de90bfbd2862e6452e6e96531c33f9d3669d2d1f" => :x86_64_linux
   end
