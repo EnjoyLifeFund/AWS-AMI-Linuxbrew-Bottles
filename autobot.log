@@ -1,17 +1,8 @@
 ==> Upgrading 1 outdated package, with result:
-libmagic 5.32
-==> Upgrading libmagic 
-==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32 --enable-fsect-man5 --enable-static
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmagic`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32: 300 files, 7.3MB, built in 31 seconds
-==> Determining libmagic bottle rebuild...
-==> Bottling libmagic-5.32.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libmagic-5.32.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libmagic-5.32.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "1890cf8b6344f00f265e92719c273e4f88dcf4b14532a92ddb3ca887efb275c0" => :x86_64_linux
-  end
+tomcat 8.5.21
+==> Upgrading tomcat 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=tomcat/tomcat-8/v8.5.21/bin/apache-tomcat-8.5.21.tar.gz
+Trying a mirror...
+==> Downloading https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.21/bin/apache-tomcat-8.5.21.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tomcat/8.5.21: 631 files, 13.2MB, built in 15 seconds
+This formula doesn't require compiling.
