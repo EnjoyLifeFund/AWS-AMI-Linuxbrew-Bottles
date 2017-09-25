@@ -1,22 +1,50 @@
 ==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> New Formulae
-bowtie2
+Updated 1 tap (homebrew/science).
+No changes to formulae.
 
 ==> Upgrading 1 outdated package, with result:
-scons 3.0.0
-==> Upgrading scons 
-==> Downloading https://downloads.sourceforge.net/project/scons/scons/3.0.0/scons-3.0.0.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/scons/scons/3.0.0/scons-3.0.0.tar.gz
-==> /usr/bin/python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0 --standalone-lib --install-lib=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0/libexec/scons-local --install-scripts=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0/bin --install-data=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0/libexec --no-version-script --no-install-man
+libxml2 2.9.5
+==> Upgrading libxml2 
+==> Installing dependencies for libxml2: gdbm, libtool
+==> Installing libxml2 dependency: gdbm
+==> Downloading https://ftp.gnu.org/gnu/gdbm/gdbm-1.13.tar.gz
+==> ./configure --disable-silent-rules --without-readline --prefix=/home/linuxbrew/.linuxbrew/Cellar/gdbm/1.13
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gdbm/1.13: 31 files, 1.7MB, built in 29 seconds
+==> Installing libxml2 dependency: libtool
+==> Downloading https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtool/2.4.6_1 --program-prefix=g --enable-ltdl-install
+==> make install
+==> Caveats
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtool/2.4.6_1: 72 files, 4MB, built in 24 seconds
+==> Installing libxml2
+==> Downloading http://xmlsoft.org/sources/libxml2-2.9.5.tar.gz
+==> autoreconf -fiv
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5 --without-python --without-lzma
+==> make
+==> make install
+==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall scons`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0: 405 files, 3.8MB, built in 4 seconds
-==> Determining scons bottle rebuild...
-==> Bottling scons-3.0.0.x86_64_linux.bottle.1.tar.gz...
-./scons-3.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libxml2`
+==> Caveats
+
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ec2-user/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ec2-user/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5: 284 files, 23MB, built in 1 minute 42 seconds
+==> Determining libxml2 bottle rebuild...
+==> Bottling libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "74e431df41a3742420305da3aae3ef51ee2c8546a70358c42afb90ae04f4b1fc" => :x86_64_linux
+    sha256 "752da2b20dc6450b498f9934fe4b32d68bce1391cb4882277dccac70eee2be10" => :x86_64_linux
   end
