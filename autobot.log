@@ -1,8 +1,30 @@
-==> Determining intltool bottle rebuild...
-==> Bottling intltool-0.51.0.x86_64_linux.bottle.1.tar.gz...
-./intltool-0.51.0.x86_64_linux.bottle.1.tar.gz
+==> Upgrading 1 outdated package, with result:
+bash-completion 1.3_3
+==> Upgrading bash-completion 
+==> Downloading https://bash-completion.alioth.debian.org/files/bash-completion-1.3.tar.bz2
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c1d87451da3b5b147bed95b2dc783a1b02520ac5/bash-completion/bug-740971.patch
+==> Patching
+==> Applying bug-740971.patch
+patching file bash_completion
+patching file completions/man
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bash-completion/1.3_3
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bash-completion`
+==> Caveats
+Add the following line to your ~/.bash_profile:
+  [ -f /home/linuxbrew/.linuxbrew/etc/bash_completion ] && . /home/linuxbrew/.linuxbrew/etc/bash_completion
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-completion/1.3_3: 189 files, 625.8KB, built in 1 minute 53 seconds
+==> Determining bash-completion bottle rebuild...
+==> Bottling bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz...
+./bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2f93fe7ade3511578d98aa806f3537cc457b575e02e006d58a5d3de406f01f53" => :x86_64_linux
+    sha256 "1ca67c3651e6e14625e1536bf6bece8e15ed6d47b656e272173a609c21d82f09" => :x86_64_linux
   end
