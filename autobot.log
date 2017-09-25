@@ -1,8 +1,15 @@
-==> Determining linuxbrew/xorg/libxshmfence bottle rebuild...
-==> Bottling libxshmfence-1.2.x86_64_linux.bottle.1.tar.gz...
-./libxshmfence-1.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://download.gnome.org/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz
+==> Downloading from http://mirror.umd.edu/gnome/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnome-common/3.18.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnome-common`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnome-common/3.18.0: 11 files, 556.7KB, built in 6 seconds
+==> Determining gnome-common bottle rebuild...
+==> Bottling gnome-common-3.18.0.x86_64_linux.bottle.1.tar.gz...
+./gnome-common-3.18.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "34cb6b76f2e09090362f1d3f37150d35d3cc906e1a5cba9a5860d2e5232f7e99" => :x86_64_linux
+    sha256 "01eac64da7c2e00945a574c84634bf137d815ff1291c771a4bda7bee46f5766e" => :x86_64_linux
   end
