@@ -1,12 +1,7 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-No changes to formulae.
-
-==> Determining linuxbrew/xorg/libxrender bottle rebuild...
-==> Bottling libxrender-0.9.10.x86_64_linux.bottle.1.tar.gz...
-./libxrender-0.9.10.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/libxcursor bottle rebuild...
+==> Bottling libxcursor-1.1.14.x86_64_linux.bottle.1.tar.gz...
+./libxcursor-1.1.14.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bc4a2f5bea8116c081092af128698b0c990e1f92b64c063663da30529282e4b6" => :x86_64_linux
+    sha256 "c25ffd1c6df7ee73072d8c2aba36a4c8982eca4bc2bf8d85f5e1292a9644326c" => :x86_64_linux
   end
