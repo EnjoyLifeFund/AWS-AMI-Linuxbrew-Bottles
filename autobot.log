@@ -1,8 +1,16 @@
-==> Determining linuxbrew/xorg/xf86driproto bottle rebuild...
-==> Bottling xf86driproto-2.1.1.x86_64_linux.bottle.1.tar.gz...
-./xf86driproto-2.1.1.x86_64_linux.bottle.1.tar.gz
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+macvim
+python
+sip
+vim
+
+==> Determining linuxbrew/xorg/xf86vidmodeproto bottle rebuild...
+==> Bottling xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz...
+./xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "e0877ae84fd5d1d43a5f5dabbe6525690bfbd3964776f998bbfa7aa87467e1f5" => :x86_64_linux
+    sha256 "17f762e94d636b5b4a2a2a844ca8af453926ce3576e3f94a62dad192f9894335" => :x86_64_linux
   end
