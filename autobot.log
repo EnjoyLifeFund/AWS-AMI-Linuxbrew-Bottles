@@ -1,17 +1,8 @@
-==> Upgrading 1 outdated package, with result:
-expat 2.2.4
-==> Upgrading expat 
-==> Downloading https://downloads.sourceforge.net/project/expat/expat/2.2.4/expat-2.2.4.tar.bz2
-Already downloaded: /home/ec2-user/.cache/Homebrew/expat-2.2.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/expat/2.2.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/expat/2.2.4/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall expat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/expat/2.2.4: 29 files, 1.8MB, built in 279 minutes 1 second
-==> Determining expat bottle rebuild...
-==> Bottling expat-2.2.4.x86_64_linux.bottle.1.tar.gz...
-./expat-2.2.4.x86_64_linux.bottle.1.tar.gz
+==> Determining gmp bottle rebuild...
+==> Bottling gmp-6.1.2.x86_64_linux.bottle.2.tar.gz...
+==> Detecting if gmp-6.1.2.x86_64_linux.bottle.2.tar.gz is relocatable...
+./gmp-6.1.2.x86_64_linux.bottle.2.tar.gz
   bottle do
-    rebuild 1
-    sha256 "0c4c41be353847f99e0b03edf4d6dced6a5077305bc5ecdfc714af67c9fa9739" => :x86_64_linux
+    rebuild 2
+    sha256 "fab6920b90e6fe5b521c4b10b81f0a03db1e8073044f238384b91fc97cad43a0" => :x86_64_linux
   end
