@@ -1,13 +1,18 @@
-==> Downloading https://libssh2.org/download/libssh2-1.8.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libssh2/1.8.0 --disable-silent-rules --disable-examples-build --with-openssl --with-libz --with-libssl-prefix=/home/linuxbrew/.linuxbrew/opt/openssl
+==> Upgrading 1 outdated package, with result:
+apr-util 1.6.0_1
+==> Upgrading apr-util 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.0.tar.bz2
+==> Best Mirror http://apache.osuosl.org/apr/apr-util-1.6.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libssh2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libssh2/1.8.0: 183 files, 2.8MB, built in 28 seconds
-==> Determining libssh2 bottle rebuild...
-==> Bottling libssh2-1.8.0.x86_64_linux.bottle.2.tar.gz...
-./libssh2-1.8.0.x86_64_linux.bottle.2.tar.gz
+You can run it manually using `brew postinstall apr-util`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1: 55 files, 2.4MB, built in 28 seconds
+==> Determining apr-util bottle rebuild...
+==> Bottling apr-util-1.6.0_1.x86_64_linux.bottle.1.tar.gz...
+./apr-util-1.6.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    rebuild 2
-    sha256 "896fda7e7c1cfc4f06c66471c0fa22355846c94d766d0b613ba909ff6d56398c" => :x86_64_linux
+    rebuild 1
+    sha256 "704f42ebf27f896292b41982e3b6e3b9293193bf0340ee7d0f5608fb22ea9034" => :x86_64_linux
   end
