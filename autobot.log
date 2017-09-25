@@ -1,13 +1,8 @@
-==> Downloading http://www.digip.org/jansson/releases/jansson-2.10.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jansson/2.10
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jansson`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jansson/2.10: 12 files, 622.3KB, built in 37 seconds
-==> Determining jansson bottle rebuild...
-==> Bottling jansson-2.10.x86_64_linux.bottle.1.tar.gz...
-./jansson-2.10.x86_64_linux.bottle.1.tar.gz
+==> Determining binutils bottle rebuild...
+==> Bottling binutils-2.29.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if binutils-2.29.x86_64_linux.bottle.1.tar.gz is relocatable...
+./binutils-2.29.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5ae1b8265198264cb6beab020fa72fbcd1412ee9e4b2011ec7b4663ed44b86b7" => :x86_64_linux
+    sha256 "8f09f51fd52ca65bf254c9affef807d5ab9074336198442b59b059ea1f8833b3" => :x86_64_linux
   end
