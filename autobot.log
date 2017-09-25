@@ -1,50 +1,17 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/science).
-No changes to formulae.
-
 ==> Upgrading 1 outdated package, with result:
-libxml2 2.9.5
-==> Upgrading libxml2 
-==> Installing dependencies for libxml2: gdbm, libtool
-==> Installing libxml2 dependency: gdbm
-==> Downloading https://ftp.gnu.org/gnu/gdbm/gdbm-1.13.tar.gz
-==> ./configure --disable-silent-rules --without-readline --prefix=/home/linuxbrew/.linuxbrew/Cellar/gdbm/1.13
+libmagic 5.32
+==> Upgrading libmagic 
+==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32 --enable-fsect-man5 --enable-static
 ==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gdbm/1.13: 31 files, 1.7MB, built in 29 seconds
-==> Installing libxml2 dependency: libtool
-==> Downloading https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtool/2.4.6_1 --program-prefix=g --enable-ltdl-install
-==> make install
-==> Caveats
-In order to prevent conflicts with Apple's own libtool we have prepended a "g"
-so, you have instead: glibtool and glibtoolize.
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtool/2.4.6_1: 72 files, 4MB, built in 24 seconds
-==> Installing libxml2
-==> Downloading http://xmlsoft.org/sources/libxml2-2.9.5.tar.gz
-==> autoreconf -fiv
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5 --without-python --without-lzma
-==> make
-==> make install
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libxml2`
-==> Caveats
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ec2-user/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ec2-user/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5: 284 files, 23MB, built in 1 minute 42 seconds
-==> Determining libxml2 bottle rebuild...
-==> Bottling libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libmagic`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32: 300 files, 7.3MB, built in 31 seconds
+==> Determining libmagic bottle rebuild...
+==> Bottling libmagic-5.32.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libmagic-5.32.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libmagic-5.32.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "752da2b20dc6450b498f9934fe4b32d68bce1391cb4882277dccac70eee2be10" => :x86_64_linux
+    sha256 "1890cf8b6344f00f265e92719c273e4f88dcf4b14532a92ddb3ca887efb275c0" => :x86_64_linux
   end
