@@ -1,13 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gperf/3.1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gperf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gperf/3.1: 15 files, 796.3KB, built in 42 seconds
-==> Determining gperf bottle rebuild...
-==> Bottling gperf-3.1.x86_64_linux.bottle.1.tar.gz...
-./gperf-3.1.x86_64_linux.bottle.1.tar.gz
+==> Determining fontconfig bottle rebuild...
+==> Bottling fontconfig-2.12.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fontconfig-2.12.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fontconfig-2.12.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "24845bdbc5f6fb2f2c57e5bc60b2d911835a3c0c5c42a4b2d13c25c739a75cf3" => :x86_64_linux
+    sha256 "a6c03f618e97942296b2ddfeb8ef387fc826612366e78e3e44647bdb5003bb5e" => :x86_64_linux
   end
