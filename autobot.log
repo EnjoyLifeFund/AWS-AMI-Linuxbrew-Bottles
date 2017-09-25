@@ -1,18 +1,22 @@
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+bowtie2
+
 ==> Upgrading 1 outdated package, with result:
-apr-util 1.6.0_1
-==> Upgrading apr-util 
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.0.tar.bz2
-==> Best Mirror http://apache.osuosl.org/apr/apr-util-1.6.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
-==> make
-==> make install
+scons 3.0.0
+==> Upgrading scons 
+==> Downloading https://downloads.sourceforge.net/project/scons/scons/3.0.0/scons-3.0.0.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/scons/scons/3.0.0/scons-3.0.0.tar.gz
+==> /usr/bin/python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0 --standalone-lib --install-lib=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0/libexec/scons-local --install-scripts=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0/bin --install-data=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0/libexec --no-version-script --no-install-man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr-util`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1: 55 files, 2.4MB, built in 28 seconds
-==> Determining apr-util bottle rebuild...
-==> Bottling apr-util-1.6.0_1.x86_64_linux.bottle.1.tar.gz...
-./apr-util-1.6.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall scons`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/scons/3.0.0: 405 files, 3.8MB, built in 4 seconds
+==> Determining scons bottle rebuild...
+==> Bottling scons-3.0.0.x86_64_linux.bottle.1.tar.gz...
+./scons-3.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "704f42ebf27f896292b41982e3b6e3b9293193bf0340ee7d0f5608fb22ea9034" => :x86_64_linux
+    sha256 "74e431df41a3742420305da3aae3ef51ee2c8546a70358c42afb90ae04f4b1fc" => :x86_64_linux
   end
