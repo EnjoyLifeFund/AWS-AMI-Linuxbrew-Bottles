@@ -1,8 +1,84 @@
-==> Determining ruby bottle rebuild...
-==> Bottling ruby-2.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ruby-2.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ruby-2.4.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4.tar.gz
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash-4.4.12.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-001
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-3e28d91531752df9a8cb167ad07cc542abaf944de9353fe8c6a535c9f1f17f0f
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-002
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-7020a0183e17a7233e665b979c78c184ea369cfaf3e8b4b11f5547ecb7c13c53
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-003
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-51df5a9192fdefe0ddca4bdf290932f74be03ffd0503a3d112e4199905e718b2
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-004
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-ad080a30a4ac6c1273373617f29628cc320a35c8cd06913894794293dc52c8b3
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-005
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-221e4b725b770ad0bb6924df3f8d04f89eeca4558f6e4c777dfa93e967090529
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-006
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-6a8e2e2a6180d0f1ce39dcd651622fb6d2fd05db7c459f64ae42d667f1e344b8
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-007
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-de1ccc07b7bfc9e25243ad854f3bbb5d3ebf9155b0477df16aaf00a7b0d5edaf
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-008
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-86144700465933636d7b945e89b77df95d3620034725be161ca0ca5a42e239ba
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-009
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-0b6bdd1a18a0d20e330cc3bc71e048864e4a13652e29dc0ebf3918bea729343c
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-010
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-8465c6f2c56afe559402265b39d9e94368954930f9aa7f3dfa6d36dd66868e06
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-011
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-dd56426ef7d7295e1107c0b3d06c192eb9298f4023c202ca2ba6266c613d170d
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-012
+Already downloaded: /home/ec2-user/.cache/Homebrew/bash--patch-fac271d2bf6372c9903e3b353cb9eda044d7fe36b5aab52f21f3f21cd6a2063e
+==> Patching
+==> Applying bash44-001
+patching file lib/readline/history.c
+patching file patchlevel.h
+==> Applying bash44-002
+patching file subst.c
+patching file patchlevel.h
+==> Applying bash44-003
+patching file lib/glob/sm_loop.c
+patching file patchlevel.h
+==> Applying bash44-004
+patching file jobs.c
+patching file jobs.h
+patching file subst.c
+patching file patchlevel.h
+==> Applying bash44-005
+patching file builtins/evalstring.c
+patching file patchlevel.h
+==> Applying bash44-006
+patching file builtins/pushd.def
+patching file patchlevel.h
+==> Applying bash44-007
+patching file bashline.c
+patching file subst.c
+patching file patchlevel.h
+==> Applying bash44-008
+patching file expr.c
+patching file patchlevel.h
+==> Applying bash44-009
+patching file lib/readline/history.c
+patching file patchlevel.h
+==> Applying bash44-010
+patching file builtins/read.def
+patching file patchlevel.h
+==> Applying bash44-011
+patching file sig.c
+patching file patchlevel.h
+==> Applying bash44-012
+patching file subst.c
+patching file patchlevel.h
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bash/4.4.12
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bash`
+==> Caveats
+In order to use this build of bash as your login shell,
+it must be added to /etc/shells.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bash/4.4.12: 146 files, 9.5MB, built in 59 seconds
+==> Determining bash bottle rebuild...
+==> Bottling bash-4.4.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bash-4.4.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bash-4.4.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "aa700a43744c276fcf5c5363504d1bfc275d8798066ad869663a42807eab4e3b" => :x86_64_linux
+    sha256 "0cfbb6d721fb428ec20c71b45d0fc957346b8ee06dff551b7d9a323ef791bf7f" => :x86_64_linux
   end
