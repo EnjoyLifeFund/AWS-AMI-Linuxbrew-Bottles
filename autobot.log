@@ -1,22 +1,7 @@
-==> Downloading https://github.com/scop/bash-completion/releases/download/2.7/bash-completion-2.7.tar.xz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/51372862/f71c6f2c-5e68-11e7-92bf-7b6d72105407?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171007T045622Z&X-Amz-Expires=300&X-Amz-Signature=a13e4213d0de2381676d299437c87320d4bc644a25e11a3192b6d9d56e626b39&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dbash-completion-2.7.tar.xz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bash-completion@2/2.7 --sysconfdir=/home/linuxbrew/.linuxbrew/etc
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bash-completion@2`
-==> Caveats
-Add the following to your ~/.bash_profile:
-  if [ -f /home/linuxbrew/.linuxbrew/share/bash-completion/bash_completion ]; then
-    . /home/linuxbrew/.linuxbrew/share/bash-completion/bash_completion
-  fi
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-completion@2/2.7: 648 files, 950.4KB, built in 7 seconds
-==> Determining bash-completion@2 bottle rebuild...
-==> Bottling bash-completion@2-2.7.x86_64_linux.bottle.1.tar.gz...
-./bash-completion@2-2.7.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "bbd7ecd772dbbed86052fa79a3c45f60206c787827d8fbdc9069f2b7d361f0f8" => :x86_64_linux
-  end
+==> Upgrading 1 outdated package, with result:
+tomcat 8.5.23
+==> Upgrading tomcat 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz
+==> Best Mirror http://mirror.jax.hugeserver.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tomcat/8.5.23: 631 files, 13.2MB, built in 7 seconds
+This formula doesn't require compiling.
