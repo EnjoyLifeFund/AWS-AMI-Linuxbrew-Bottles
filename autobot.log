@@ -1,8 +1,18 @@
-==> Determining openssl bottle rebuild...
-==> Bottling openssl-1.0.2m.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if openssl-1.0.2m.x86_64_linux.bottle.1.tar.gz is relocatable...
-./openssl-1.0.2m.x86_64_linux.bottle.1.tar.gz
+==> Upgrading 1 outdated package, with result:
+apr-util 1.6.1_1
+==> Upgrading apr-util 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.1.tar.bz2
+Already downloaded: /home/ec2-user/.cache/Homebrew/apr-util-1.6.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall apr-util`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1: 55 files, 2.4MB, built in 25 seconds
+==> Determining apr-util bottle rebuild...
+==> Bottling apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz...
+./apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d05384c59857cae0d860717ba9419394e0bbf3a0cb421488bf3e445af337bbbe" => :x86_64_linux
+    sha256 "569cc545caae8bd8eaaaf41ebac4530a2c5459b9dcaaef43dec5714b6e71c4fc" => :x86_64_linux
   end
