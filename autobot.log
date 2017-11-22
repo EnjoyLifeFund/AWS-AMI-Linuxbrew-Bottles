@@ -1,18 +1,17 @@
 ==> Upgrading 1 outdated package, with result:
-apr-util 1.6.1_1
-==> Upgrading apr-util 
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.1.tar.bz2
-Already downloaded: /home/ec2-user/.cache/Homebrew/apr-util-1.6.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
-==> make
-==> make install
+scons 3.0.1
+==> Upgrading scons 
+==> Downloading https://downloads.sourceforge.net/project/scons/scons/3.0.1/scons-3.0.1.tar.gz
+==> Downloading from https://versaweb.dl.sourceforge.net/project/scons/scons/3.0.1/scons-3.0.1.tar.gz
+==> /usr/bin/python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.1 --standalone-lib --install-lib=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.1/libexec/scons-local --install-scripts=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.1/bin --install-data=/home/linuxbrew/.linuxbrew/Cellar/scons/3.0.1/libexec --no-version-script --no-install-man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr-util`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1: 55 files, 2.4MB, built in 25 seconds
-==> Determining apr-util bottle rebuild...
-==> Bottling apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz...
-./apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall scons`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/scons/3.0.1: 405 files, 3.8MB, built in 3 seconds
+==> Determining scons bottle rebuild...
+==> Bottling scons-3.0.1.x86_64_linux.bottle.1.tar.gz...
+./scons-3.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "569cc545caae8bd8eaaaf41ebac4530a2c5459b9dcaaef43dec5714b6e71c4fc" => :x86_64_linux
+    sha256 "33a204aeda9ab8a847f65ea65b5b4f21c14f0205f591cd616a650866d66f29c4" => :x86_64_linux
   end
