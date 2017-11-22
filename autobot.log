@@ -1,15 +1,8 @@
-==> Upgrading 1 outdated package, with result:
-sbt 1.0.3
-==> Upgrading sbt 
-==> Downloading https://github.com/sbt/sbt/releases/download/v1.0.3/sbt-1.0.3.tgz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/279553/d3e64dba-baad-11e7-972d-9974d629917f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171111T205741Z&X-Amz-Expires=300&X-Amz-Signature=3e0c781f7ad8a2e8f486cd2a3120f7a132b8e00ccf3269494f9ef6b4285f05fc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dsbt-1.0.3.tgz&response-content-type=application%2Foctet-stream
-==> Caveats
-You can use $SBT_OPTS to pass additional JVM options to SBT:
-   SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
-
-This formula uses the standard Lightbend sbt launcher script.
-Project specific options should be placed in .sbtopts in the root of your project.
-Global settings should be placed in /home/linuxbrew/.linuxbrew/etc/sbtopts
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sbt/1.0.3: 494 files, 75MB, built in 18 seconds
-This formula doesn't require compiling.
+==> Determining openssl bottle rebuild...
+==> Bottling openssl-1.0.2m.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if openssl-1.0.2m.x86_64_linux.bottle.1.tar.gz is relocatable...
+./openssl-1.0.2m.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "d05384c59857cae0d860717ba9419394e0bbf3a0cb421488bf3e445af337bbbe" => :x86_64_linux
+  end
