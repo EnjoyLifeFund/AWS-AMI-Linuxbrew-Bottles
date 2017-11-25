@@ -1,8 +1,14 @@
-==> Determining git bottle rebuild...
-==> Bottling git-2.15.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if git-2.15.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./git-2.15.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/n/nc6/nc6_1.0.orig.tar.gz
+Already downloaded: /home/ec2-user/.cache/Homebrew/netcat6-1.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall netcat6`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0: 10 files, 264.4KB, built in 17 seconds
+==> Determining netcat6 bottle rebuild...
+==> Bottling netcat6-1.0.x86_64_linux.bottle.1.tar.gz...
+./netcat6-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b8d7c6a2879bbf88d13b74ac842100399a70c3fcc0e289a918d961dbd0d073af" => :x86_64_linux
+    sha256 "6351529f5673b2518091798b869c2dea77bd27f936f96aebb06f70e21d5c0c5f" => :x86_64_linux
   end
