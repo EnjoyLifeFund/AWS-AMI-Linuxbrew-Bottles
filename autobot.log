@@ -1,14 +1,84 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/n/nc6/nc6_1.0.orig.tar.gz
-Already downloaded: /home/ec2-user/.cache/Homebrew/netcat6-1.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0/share/man
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core, caskroom/cask).
+==> New Formulae
+mrboom
+raylib
+==> Updated Formulae
+azure-cli@1
+blink1
+checkstyle
+exim
+fail2ban
+fluent-bit
+gauge
+gegl
+geth
+ghc
+git-annex
+grails
+huexpress
+jhipster
+knot
+kontena
+kotlin
+ldc
+libcddb
+libcdio
+libdivecomputer
+libgosu
+libmaxminddb
+librealsense
+libuv
+little-cms2
+mgba
+micro
+midnight-commander
+minio
+miniupnpc
+mono-libgdiplus
+mpd
+nghttp2
+nuget
+ocamlbuild
+opencbm
+plzip
+pyqt
+pyvim
+q
+qca
+qscintilla2
+rancher-cli
+roswell
+sbt
+scalariform
+sceptre
+sdl2_mixer
+sfk
+shfmt
+sile
+sip
+sslyze
+stormlib
+swiftformat
+termius
+tgui
+tidy-html5
+urh
+vcdimager
+youtube-dl
+zanata-client
+
+==> Downloading https://dl.bintray.com/homebrew/mirror/dash-0.5.9.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1 --with-libedit --enable-fnmatch --enable-glob
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall netcat6`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0: 10 files, 264.4KB, built in 17 seconds
-==> Determining netcat6 bottle rebuild...
-==> Bottling netcat6-1.0.x86_64_linux.bottle.1.tar.gz...
-./netcat6-1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1: 6 files, 598.3KB, built in 15 seconds
+==> Determining dash bottle rebuild...
+==> Bottling dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz...
+./dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6351529f5673b2518091798b869c2dea77bd27f936f96aebb06f70e21d5c0c5f" => :x86_64_linux
+    sha256 "e9396630ada54e6b70ee56171ba2a81fd98cebb2a42c95cd0f2bae746354dacc" => :x86_64_linux
   end
