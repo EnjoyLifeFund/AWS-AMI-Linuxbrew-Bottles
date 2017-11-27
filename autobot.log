@@ -1,84 +1,30 @@
-==> Auto-updated Homebrew!
-Updated 2 taps (homebrew/core, caskroom/cask).
-==> New Formulae
-mrboom
-raylib
-==> Updated Formulae
-azure-cli@1
-blink1
-checkstyle
-exim
-fail2ban
-fluent-bit
-gauge
-gegl
-geth
-ghc
-git-annex
-grails
-huexpress
-jhipster
-knot
-kontena
-kotlin
-ldc
-libcddb
-libcdio
-libdivecomputer
-libgosu
-libmaxminddb
-librealsense
-libuv
-little-cms2
-mgba
-micro
-midnight-commander
-minio
-miniupnpc
-mono-libgdiplus
-mpd
-nghttp2
-nuget
-ocamlbuild
-opencbm
-plzip
-pyqt
-pyvim
-q
-qca
-qscintilla2
-rancher-cli
-roswell
-sbt
-scalariform
-sceptre
-sdl2_mixer
-sfk
-shfmt
-sile
-sip
-sslyze
-stormlib
-swiftformat
-termius
-tgui
-tidy-html5
-urh
-vcdimager
-youtube-dl
-zanata-client
-
-==> Downloading https://dl.bintray.com/homebrew/mirror/dash-0.5.9.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1 --with-libedit --enable-fnmatch --enable-glob
-==> make
+==> Installing dependencies for fish: pcre2
+==> Installing fish dependency: pcre2
+==> Downloading https://linuxbrew.bintray.com/bottles/pcre2-10.30.x86_64_linux.bottle.tar.gz
+==> Pouring pcre2-10.30.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pcre2/10.30: 228 files, 6MB
+==> Installing fish
+==> Downloading https://github.com/fish-shell/fish-shell/releases/download/2.7.0/fish-2.7.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4279682/07691758-d070-11e7-93bc-c5104dbdd0ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171127T124955Z&X-Amz-Expires=300&X-Amz-Signature=bb8441923d71a15db708addbd71760adad66eb55953c6065cbc2b78c46f80f8f&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfish-2.7.0.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fish/2.7.0 --with-extra-functionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_functions.d --with-extra-completionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d --with-extra-confdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_conf.d
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1: 6 files, 598.3KB, built in 15 seconds
-==> Determining dash bottle rebuild...
-==> Bottling dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz...
-./dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fish`
+==> Caveats
+You will need to add:
+  /home/linuxbrew/.linuxbrew/bin/fish
+to /etc/shells.
+
+Then run:
+  chsh -s /home/linuxbrew/.linuxbrew/bin/fish
+to make fish your default shell.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fish/2.7.0: 905 files, 52.3MB, built in 1 minute 41 seconds
+==> Determining fish bottle rebuild...
+==> Bottling fish-2.7.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fish-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fish-2.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e9396630ada54e6b70ee56171ba2a81fd98cebb2a42c95cd0f2bae746354dacc" => :x86_64_linux
+    sha256 "e54121cc8609da5474f868f73ab3d09016177d76c7ce57cb03017a41c28abf94" => :x86_64_linux
   end
