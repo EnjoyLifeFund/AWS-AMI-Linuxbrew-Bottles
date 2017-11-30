@@ -1,30 +1,114 @@
-==> Installing dependencies for fish: pcre2
-==> Installing fish dependency: pcre2
-==> Downloading https://linuxbrew.bintray.com/bottles/pcre2-10.30.x86_64_linux.bottle.tar.gz
-==> Pouring pcre2-10.30.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pcre2/10.30: 228 files, 6MB
-==> Installing fish
-==> Downloading https://github.com/fish-shell/fish-shell/releases/download/2.7.0/fish-2.7.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4279682/07691758-d070-11e7-93bc-c5104dbdd0ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171127T124955Z&X-Amz-Expires=300&X-Amz-Signature=bb8441923d71a15db708addbd71760adad66eb55953c6065cbc2b78c46f80f8f&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfish-2.7.0.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fish/2.7.0 --with-extra-functionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_functions.d --with-extra-completionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d --with-extra-confdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_conf.d
+==> Auto-updated Homebrew!
+Updated Homebrew from a4274523d to 3aecdc029.
+Updated 4 taps (homebrew/core, homebrew/science, caskroom/cask, linuxbrew/xorg).
+==> New Formulae
+clingo
+glslviewer
+linuxbrew/xorg/libxaw3d
+neal
+==> Updated Formulae
+abcmidi
+adwaita-icon-theme
+amazon-ecs-cli
+angular-cli
+ansifilter
+aspcud
+aws-sdk-cpp
+bazaar
+bazel
+bit
+blockhash
+bluepill
+brotli
+btfs
+clojure
+cockroach
+coffeescript
+commandbox
+cppad
+curl
+digdag
+direnv
+emscripten
+exim
+fdroidserver
+freetds
+get_iplayer
+git
+git-ftp
+glade
+gmic
+gnome-recipes
+grakn
+groonga
+haproxy
+heroku
+highlight
+homebrew/science/biomake
+homebrew/science/neuron
+homebrew/science/nextflow
+httest
+hugo
+imagemagick
+imagemagick@6
+jenkins
+kotlin
+libgweather
+libmicrohttpd
+libtcod
+mame
+mariadb
+nodebrew
+nss
+osc
+ott
+packmol
+paket
+pdnsrec
+pngquant
+polyml
+ppsspp
+radare2
+restic
+rocksdb
+rom-tools
+rtags
+s6
+sdl2_mixer
+stunnel
+swi-prolog
+swiftformat
+terragrunt
+twarc
+urh
+vim
+webp
+wireguard-tools
+x265
+xtensor
+you-get
+zsh-autosuggestions
+==> Deleted Formulae
+clasp
+gringo
+
+==> Upgrading 1 outdated package, with result:
+libatomic_ops 7.4.8
+==> Upgrading libatomic_ops 
+==> Downloading https://github.com/ivmai/libatomic_ops/releases/download/v7.4.8/libatomic_ops-7.4.8.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2103225/4dc83af4-b40e-11e7-92f0-2011fd09f674?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171130T195124Z&X-Amz-Expires=300&X-Amz-Signature=a5686ffb69eb8bb4943dcdb4e2088297d0b0d528c0a72912add30d8e6a56dcaa&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibatomic_ops-7.4.8.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.4.8
+==> make
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fish`
-==> Caveats
-You will need to add:
-  /home/linuxbrew/.linuxbrew/bin/fish
-to /etc/shells.
-
-Then run:
-  chsh -s /home/linuxbrew/.linuxbrew/bin/fish
-to make fish your default shell.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fish/2.7.0: 905 files, 52.3MB, built in 1 minute 41 seconds
-==> Determining fish bottle rebuild...
-==> Bottling fish-2.7.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fish-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fish-2.7.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libatomic_ops`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.4.8: 80 files, 746.7KB, built in 13 seconds
+==> Determining libatomic_ops bottle rebuild...
+==> Bottling libatomic_ops-7.4.8.x86_64_linux.bottle.1.tar.gz...
+./libatomic_ops-7.4.8.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e54121cc8609da5474f868f73ab3d09016177d76c7ce57cb03017a41c28abf94" => :x86_64_linux
+    sha256 "7c6230689ac81dc43cc8114e976765ec420face52807de6965889ed72e2f6b83" => :x86_64_linux
   end
