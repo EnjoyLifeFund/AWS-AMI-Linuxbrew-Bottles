@@ -1,22 +1,19 @@
 ==> Upgrading 1 outdated package, with result:
-cmake 3.10.1
-==> Upgrading cmake 
-==> Downloading https://cmake.org/files/v3.10/cmake-3.10.1.tar.gz
-==> ./bootstrap --prefix=/home/linuxbrew/.linuxbrew/Cellar/cmake/3.10.1 --no-system-libs --parallel=1 --datadir=/share/cmake --docdir=/share/doc/cmake --mandir=/share/man --system-zlib --system-bzip2 --system-curl --sphinx-man --sphinx-build=/home/linuxbrew/.linuxbrew/opt/sphinx-doc/bin/sphinx-build -- -DCMAKE_BUILD_TYPE=Release
-==> make
-==> make install
+boost 1.66.0
+==> Upgrading boost 
+==> Downloading https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.bz2
+==> ./bootstrap.sh --prefix=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0 --libdir=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0/lib --without-icu --without-libraries=python,mpi
+==> ./b2 headers
+==> ./b2 --prefix=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0 --libdir=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0/lib -d2 -j1 --layout=tagged --user-config=user-config.jam -sNO_LZMA=1 install threading=multi,single link=shared,static cxxflags=-std=c++11 include=/home/linuxbrew/.linuxbrew/include linkflags=-L/home/linuxbrew/.linuxbrew/lib
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cmake`
-==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/cmake
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cmake/3.10.1: 2,333 files, 37.1MB, built in 12 minutes 58 seconds
-==> Determining cmake bottle rebuild...
-==> Bottling cmake-3.10.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cmake-3.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cmake-3.10.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall boost`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0: 13,165 files, 203.0MB, built in 57 minutes
+==> Determining boost bottle rebuild...
+==> Bottling boost-1.66.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if boost-1.66.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./boost-1.66.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2f748b8f74a204d5ca6540c00604871a4c9a7df20c3e0a6e81147cd5c1c9644a" => :x86_64_linux
+    sha256 "cfaafc9890bea9dd4957ac30f8d92f6d5e6b7672fcfb01a822395efdbedf2c40" => :x86_64_linux
   end
