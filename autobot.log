@@ -1,15 +1,35 @@
 ==> Upgrading 1 outdated package, with result:
-sbt 1.0.4
-==> Upgrading sbt 
-==> Downloading https://github.com/sbt/sbt/releases/download/v1.0.4/sbt-1.0.4.tgz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/279553/770307b8-d273-11e7-9c02-cd502dff206c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171130T195215Z&X-Amz-Expires=300&X-Amz-Signature=46d0758ba316443e05de694abee4c57e5730eff0a1d4c8d523c5ea95ec643bab&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dsbt-1.0.4.tgz&response-content-type=application%2Foctet-stream
+openssl 1.0.2n
+==> Upgrading openssl 
+==> Downloading https://www.openssl.org/source/openssl-1.0.2n.tar.gz
+==> Downloading https://github.com/openssl/openssl/pull/1524.patch
+==> Downloading from https://patch-diff.githubusercontent.com/raw/openssl/openssl/pull/1524.patch
+==> Patching
+==> Applying 1524.patch
+patching file Configure
+Hunk #1 succeeded at 1723 (offset 2 lines).
+==> perl ./Configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/openssl/1.0.2n --openssldir=/home/linuxbrew/.linuxbrew/etc/openssl no-ssl2 zlib-dynamic shared enable-cms -Wa,--noexecstack linux-x86_64
+==> make depend
+==> make
+==> make test
+==> make install MANDIR=/home/linuxbrew/.linuxbrew/Cellar/openssl/1.0.2n/share/man MANSUFFIX=ssl
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall openssl`
 ==> Caveats
-You can use $SBT_OPTS to pass additional JVM options to SBT:
-   SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /home/linuxbrew/.linuxbrew/etc/openssl/certs
 
-This formula uses the standard Lightbend sbt launcher script.
-Project specific options should be placed in .sbtopts in the root of your project.
-Global settings should be placed in /home/linuxbrew/.linuxbrew/etc/sbtopts
+and run
+  /home/linuxbrew/.linuxbrew/opt/openssl/bin/c_rehash
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sbt/1.0.4: 482 files, 62.3MB, built in 12 seconds
-This formula doesn't require compiling.
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openssl/1.0.2n: 1,791 files, 14.5MB, built in 4 minutes 16 seconds
+==> Determining openssl bottle rebuild...
+==> Bottling openssl-1.0.2n.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if openssl-1.0.2n.x86_64_linux.bottle.1.tar.gz is relocatable...
+./openssl-1.0.2n.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "5d022daefea2a4830cb241e346dcb5012dbf4abb74fd5a2dc1e65e22b54542d0" => :x86_64_linux
+  end
