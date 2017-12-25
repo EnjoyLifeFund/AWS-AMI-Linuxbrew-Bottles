@@ -1,20 +1,27 @@
 ==> Upgrading 1 outdated package, with result:
-libatomic_ops 7.6.2
-==> Upgrading libatomic_ops 
-==> Downloading https://github.com/ivmai/libatomic_ops/releases/download/v7.6.2/libatomic_ops-7.6.2.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2103225/2a3a9176-e89e-11e7-9748-e9932e2f345a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171225T170117Z&X-Amz-Expires=300&X-Amz-Signature=5b0fd780c7e977cb26b3c0d032b1c6552c8a071998b43e249080be2750988d53&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibatomic_ops-7.6.2.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.6.2
-==> make
-==> make check
+fish 2.7.1
+==> Upgrading fish 
+==> Downloading https://github.com/fish-shell/fish-shell/releases/download/2.7.1/fish-2.7.1.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4279682/b403c31e-e777-11e7-8441-19621f274c3a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171225T170153Z&X-Amz-Expires=300&X-Amz-Signature=d7fa5ecd5d46cb04b067eac9d30017b2bba7becf30134123f44ffb11c79cfff8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfish-2.7.1.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fish/2.7.1 --with-extra-functionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_functions.d --with-extra-completionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d --with-extra-confdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_conf.d
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libatomic_ops`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.6.2: 82 files, 804.7KB, built in 16 seconds
-==> Determining libatomic_ops bottle rebuild...
-==> Bottling libatomic_ops-7.6.2.x86_64_linux.bottle.1.tar.gz...
-./libatomic_ops-7.6.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fish`
+==> Caveats
+You will need to add:
+  /home/linuxbrew/.linuxbrew/bin/fish
+to /etc/shells.
+
+Then run:
+  chsh -s /home/linuxbrew/.linuxbrew/bin/fish
+to make fish your default shell.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fish/2.7.1: 905 files, 52.3MB, built in 1 minute 38 seconds
+==> Determining fish bottle rebuild...
+==> Bottling fish-2.7.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fish-2.7.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fish-2.7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7ee6f158df928a6db364ced61ccf76b27c8c43fb223d6901f95a7c059382bdb0" => :x86_64_linux
+    sha256 "4b721841849701ff8f3b23b52184053db3dc854c828acfe46fea7a5b9d591c05" => :x86_64_linux
   end
