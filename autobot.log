@@ -1,42 +1,27 @@
 ==> Upgrading 1 outdated package, with result:
-jpeg-turbo 1.5.3
-==> Upgrading jpeg-turbo 
-==> Installing dependencies for jpeg-turbo: nasm
-==> Installing jpeg-turbo dependency: nasm
-==> Downloading http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nasm/2.13.02
-==> make rdf
-==> make install install_rdf
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nasm/2.13.02: 30 files, 4.5MB, built in 35 seconds
-==> Installing jpeg-turbo
-==> Downloading https://downloads.sourceforge.net/project/libjpeg-turbo/1.5.3/libjpeg-turbo-1.5.3.tar.gz
-==> Downloading from https://versaweb.dl.sourceforge.net/project/libjpeg-turbo/1.5.3/libjpeg-turbo-1.5.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jpeg-turbo/1.5.3 --with-jpeg8 --mandir=/home/linuxbrew/.linuxbrew/Cellar/jpeg-turbo/1.5.3/share/man
-==> make
-==> make test
+cairo 1.14.12
+==> Upgrading cairo 
+==> Installing dependencies for cairo: linuxbrew/xorg/libxaw3d, linuxbrew/xorg/xdpyinfo
+==> Installing cairo dependency: linuxbrew/xorg/libxaw3d
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/libxaw3d-1.6.2.x86_64_linux.bottle.tar.gz
+==> Pouring libxaw3d-1.6.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxaw3d/1.6.2: 85 files, 2MB
+==> Installing cairo dependency: linuxbrew/xorg/xdpyinfo
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xdpyinfo-1.3.2.x86_64_linux.bottle.tar.gz
+==> Pouring xdpyinfo-1.3.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xdpyinfo/1.3.2: 6 files, 92.3KB
+==> Installing cairo
+==> Downloading https://cairographics.org/releases/cairo-1.14.12.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cairo/1.14.12 --enable-gobject=yes --enable-svg=yes --enable-tee=yes --enable-xcb=yes --enable-xlib=yes --enable-xlib-xrender=yes
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jpeg-turbo`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because libjpeg-turbo is not linked to prevent conflicts with the standard libjpeg.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/jpeg-turbo/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/jpeg-turbo/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/jpeg-turbo/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/jpeg-turbo/lib/pkgconfig
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jpeg-turbo/1.5.3: 39 files, 3.6MB, built in 1 minute 50 seconds
-==> Determining jpeg-turbo bottle rebuild...
-==> Bottling jpeg-turbo-1.5.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jpeg-turbo-1.5.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jpeg-turbo-1.5.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cairo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cairo/1.14.12: 126 files, 20.0MB, built in 4 minutes 9 seconds
+==> Determining cairo bottle rebuild...
+==> Bottling cairo-1.14.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cairo-1.14.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cairo-1.14.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7a84e4b84538d885304be224be266e8fea2e42929b615a9314141572b367288a" => :x86_64_linux
+    sha256 "fff6e97b5c7f4fe3549575a691e6db4ed85edb383713dc612e932e8149ea782c" => :x86_64_linux
   end
