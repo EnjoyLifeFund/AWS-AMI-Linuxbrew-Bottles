@@ -1,19 +1,18 @@
 ==> Upgrading 1 outdated package, with result:
-boost 1.66.0
-==> Upgrading boost 
-==> Downloading https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.bz2
-==> ./bootstrap.sh --prefix=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0 --libdir=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0/lib --without-icu --without-libraries=python,mpi
-==> ./b2 headers
-==> ./b2 --prefix=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0 --libdir=/home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0/lib -d2 -j1 --layout=tagged --user-config=user-config.jam -sNO_LZMA=1 install threading=multi,single link=shared,static cxxflags=-std=c++11 include=/home/linuxbrew/.linuxbrew/include linkflags=-L/home/linuxbrew/.linuxbrew/lib
+icu4c 60.2
+==> Upgrading icu4c 
+==> Downloading https://ssl.icu-project.org/files/icu4c/60.2/icu4c-60_2-src.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/icu4c/60.2 --disable-samples --disable-tests --enable-static --with-library-bits=64
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall boost`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/boost/1.66.0: 13,165 files, 203.0MB, built in 57 minutes
-==> Determining boost bottle rebuild...
-==> Bottling boost-1.66.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if boost-1.66.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./boost-1.66.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall icu4c`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/icu4c/60.2: 249 files, 71.5MB, built in 6 minutes 43 seconds
+==> Determining icu4c bottle rebuild...
+==> Bottling icu4c-60.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if icu4c-60.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./icu4c-60.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cfaafc9890bea9dd4957ac30f8d92f6d5e6b7672fcfb01a822395efdbedf2c40" => :x86_64_linux
+    sha256 "20ea1d39d8fdde4ddd061533bcd7a4e70b5e424c8494421b029ecbbbb44f1879" => :x86_64_linux
   end
