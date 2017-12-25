@@ -1,33 +1,24 @@
 ==> Upgrading 1 outdated package, with result:
-python3 3.6.4
-==> Upgrading python3 
-==> Downloading https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/python3/3.6.4 --enable-ipv6 --datarootdir=/home/linuxbrew/.linuxbrew/Cellar/python3/3.6.4/share --datadir=/home/linuxbrew/.linuxbrew/Cellar/python3/3.6.4/share --enable-shared --without-ensurepip --enable-loadable-sqlite-extensions --with-system-ffi MACOSX_DEPLOYMENT_TARGET=0 LDFLAGS=  -L/home/linuxbrew/.linuxbrew/lib CPPFLAGS=  -I/home/linuxbrew/.linuxbrew/include
+ruby 2.4.3_1
+==> Upgrading ruby 
+==> Downloading https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.3.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.3_1 --enable-shared --disable-silent-rules --with-sitedir=/home/linuxbrew/.linuxbrew/lib/ruby/site_ruby --with-vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby --disable-install-doc --without-gmp --with-opt-dir=/home/linuxbrew/.linuxbrew/opt/libyaml:/home/linuxbrew/.linuxbrew/opt/openssl:/home/linuxbrew/.linuxbrew/opt/readline
 ==> make
-==> make install PYTHONAPPSDIR=/home/linuxbrew/.linuxbrew/Cellar/python3/3.6.4
-==> Downloading https://files.pythonhosted.org/packages/a4/c8/9a7a47f683d54d83f648d37c3e180317f80dc126a304c45dc6663246233a/setuptools-36.5.0.zip
-==> Downloading https://files.pythonhosted.org/packages/11/b6/abcb525026a4be042b486df43905d6893fb04f05aac21c32c638e939e447/pip-9.0.1.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/fa/b4/f9886517624a4dcb81a1d766f68034344b7565db69f13d52697222daeb72/wheel-0.30.0.tar.gz
+==> make install
+==> Downloading https://rubygems.org/rubygems/rubygems-2.6.14.tgz
+==> /home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.3_1/bin/ruby setup.rb --prefix=/tmp/ruby-20171225-9244-1in565x/ruby-2.4.3/vendor_gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall python3`
+You can run it manually using `brew postinstall ruby`
 ==> Caveats
-Pip, setuptools, and wheel have been installed. To update them
-  pip3 install --upgrade pip setuptools wheel
-
-You can install Python packages with
-  pip3 install <package>
-
-They will install into the site-package directory
-  /home/linuxbrew/.linuxbrew/lib/python3.6/site-packages
-
-See: https://docs.brew.sh/Homebrew-and-Python.html
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/ruby
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/python3/3.6.4: 7,220 files, 135.3MB, built in 3 minutes 26 seconds
-==> Determining python3 bottle rebuild...
-==> Bottling python3-3.6.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if python3-3.6.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./python3-3.6.4.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.3_1: 3,042 files, 30.3MB, built in 5 minutes 22 seconds
+==> Determining ruby bottle rebuild...
+==> Bottling ruby-2.4.3_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ruby-2.4.3_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ruby-2.4.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "fc4c87bcb43ff9487c26d8ec9afd3e218611373765d67322c3da0b472d77b98c" => :x86_64_linux
+    sha256 "972ef0686d9ff1628712a495aa79d1ee6ef469c307b5e7bd794357f66955e30d" => :x86_64_linux
   end
