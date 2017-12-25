@@ -1,24 +1,28 @@
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/science).
+==> Updated Formulae
+homebrew/science/openimageio
+
 ==> Upgrading 1 outdated package, with result:
-ruby 2.4.3_1
-==> Upgrading ruby 
-==> Downloading https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.3.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.3_1 --enable-shared --disable-silent-rules --with-sitedir=/home/linuxbrew/.linuxbrew/lib/ruby/site_ruby --with-vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby --disable-install-doc --without-gmp --with-opt-dir=/home/linuxbrew/.linuxbrew/opt/libyaml:/home/linuxbrew/.linuxbrew/opt/openssl:/home/linuxbrew/.linuxbrew/opt/readline
-==> make
+node 9.3.0_1
+==> Upgrading node 
+==> Downloading https://nodejs.org/dist/v9.3.0/node-v9.3.0.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/node/9.3.0_1 --without-npm --with-intl=system-icu
 ==> make install
-==> Downloading https://rubygems.org/rubygems/rubygems-2.6.14.tgz
-==> /home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.3_1/bin/ruby setup.rb --prefix=/tmp/ruby-20171225-9244-1in565x/ruby-2.4.3/vendor_gem
+==> Downloading https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+==> node /tmp/node-20171225-28956-sjhhmb/node-v9.3.0/npm_bootstrap/bin/npm-cli.js install -ddd --global --prefix=/home/linuxbrew/.linuxbrew/Cellar/node/9.3.0_1/libexec /home/ec2-user/.cache/Homebrew/node--npm-5.6.0.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ruby`
+You can run it manually using `brew postinstall node`
 ==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/ruby
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.3_1: 3,042 files, 30.3MB, built in 5 minutes 22 seconds
-==> Determining ruby bottle rebuild...
-==> Bottling ruby-2.4.3_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ruby-2.4.3_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ruby-2.4.3_1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/node/9.3.0_1: 5,139 files, 54.5MB, built in 30 minutes 1 second
+==> Determining node bottle rebuild...
+==> Bottling node-9.3.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if node-9.3.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./node-9.3.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "972ef0686d9ff1628712a495aa79d1ee6ef469c307b5e7bd794357f66955e30d" => :x86_64_linux
+    sha256 "b9eb91e5051f4d824d895182993c51e40a924c13d0d5ff82786c24be9ea4e4c3" => :x86_64_linux
   end
